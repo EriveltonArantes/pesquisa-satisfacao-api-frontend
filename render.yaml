@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: pesquisa-satisfacao-api-frontend
+    runtime: docker
+    plan: free
+    envVars:
+      - key: PORT
+        value: 8080
